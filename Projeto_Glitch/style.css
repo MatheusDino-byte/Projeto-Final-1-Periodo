@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Media/pattern-02.png);
+}
+
+#amazing {
+    background-image: url(Media/tdac-bg.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+a {
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+#header-global-top {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    top: 0;
+    position: sticky !important;
+    z-index: 1;
+    box-shadow: 2px;
+    border-bottom: solid lightgray 2px;
+}
+
+#header-global-top #glitch-header-global {
+    width: 60px;
+}
+
+#nav-global-top {
+    display: flex;
+    align-items: center;
+}
+
+#nav-global-top div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.but-global-top {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.white-text {
+    font-family: 'Bender', sans-serif;          
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    transition: ease-in 0.2s;
+}
+
+.white-text:hover {
+    color: lightgray;
+}
+
+.black-text {
+    font-family: 'Bender', sans-serif;          
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    transition: ease-in 0.2s;
+}
+
+/* controla o botão dos shows */
+
+#shows {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#list-shows {
+    display: none;
+}
+
+#list-shows ul {
+    margin-top: 20px;
+}
+
+#shows:hover #list-shows {
+    display: block;
+    padding: 20px;
+    position: absolute;
+    background-color: white;
+}
+
+.big-title {
+    font-size: 125px;
+    text-align: center;
+    font-family: 'Bender', sans-serif; 
+    margin-bottom: 100px;
+}
+
+#shows-titulo {
+    color: hotpink;
+}
+
+.titulo-secao {
+    font-size: 40px;
+}
+
+.bloco-left {
+    margin-left: 30px;
+    margin-right: 100px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.bloco-left img {
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 20px;
+}
+
+.bloco-right {
+    margin-right: 30px;
+    margin-left: 100px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.bloco-right img {
+    border-radius: 20px;
+    float: right;
+    margin-left: 10px;
+    box-shadow: 20px;
+}
+
+.bloco-right iframe {
+    border-radius: 20px;
+    float: right;
+    margin-left: 10px;
+    box-shadow: 20px;
+}
+
+#secao {
+    position: relative;
+    overflow: hidden;
+    height: 900px;
+    margin-bottom: 100px;
+}
+
+#scroll-shows:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+#scroll-shows {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    animation: bannermove 60s linear infinite;
+}
+
+#scroll-shows img {
+    margin: 0.5rem;
+}
+
+@keyframes bannermove {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-50%, 0);
+  }
+}
+
+.rodape {
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.rodape p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.pilot {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+    overflow: hidden;
+}
+
+.pilot h2 {
+    text-align: center;
+}
+
+.pilot iframe {
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+
+.credits {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.credits img {
+    width: 200px;
+    border-radius: 50px;
+}
+
+.main-sector {
+    margin-left: 100px;
+    display: flex;
+}
