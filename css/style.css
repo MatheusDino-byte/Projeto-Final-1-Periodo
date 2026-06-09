@@ -29,6 +29,13 @@ body {
     color: white;
 }
 
+#cavalheiros {
+    background-image: url(../images/cavalheiros-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
 a {
     font-style: normal;
     text-decoration-line: none;
@@ -290,8 +297,13 @@ a {
 }
 
 .credits img {
-    width: 200px;
+    width: 100px;
     border-radius: 50px;
+}
+
+#multiplos {
+    display: flex;
+    gap: 20px;
 }
 
 .main-sector {
