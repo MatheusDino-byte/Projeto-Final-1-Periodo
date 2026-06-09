@@ -99,6 +99,18 @@ a {
     transition: ease-in 0.2s;
 }
 
+.black-text:hover {
+    color: hotpink;
+}
+
+#line {
+    transition: ease-in 0.2s;
+}
+
+#shows:hover #line {
+    fill: hotpink;
+}
+
 /* controla o botão dos shows */
 
 #shows {
