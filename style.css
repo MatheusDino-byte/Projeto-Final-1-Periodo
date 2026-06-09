@@ -5,11 +5,11 @@
 }
 
 body {
-    background-image: url(Media/pattern-02.png);
+    background-image: url(images/pattern-02.png);
 }
 
 #amazing {
-    background-image: url(Media/tdac-bg.jpg);
+    background-image: url(images/tdac-bg.jpg);
     background-attachment: fixed;
     color: white;
 }
