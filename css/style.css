@@ -15,6 +15,20 @@ body {
     color: white;
 }
 
+#gaslight {
+    background-image: url(../media/gd-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#gameoverse {
+    background-image: url(../media/g-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
 a {
     font-style: normal;
     text-decoration-line: none;
@@ -114,18 +128,18 @@ a {
 
 .titulo-secao {
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 30px;
 }
 
 .bloco-left {
     margin-left: 30px;
-    margin-right: 500px;
+    margin-right: 250px;
     text-align: justify;
     font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
 }
 
 .bloco-left img {
@@ -137,12 +151,12 @@ a {
 
 .bloco-right {
     margin-right: 30px;
-    margin-left: 500px;
+    margin-left: 250px;
     text-align: justify;
     font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
 }
 
 .bloco-right img {
@@ -161,6 +175,10 @@ a {
 
 #historia-div, #youtube-div {
     text-align: right;
+}
+
+#youtube-div {
+    margin-bottom: 400px;
 }
 
 #secao {
@@ -212,13 +230,26 @@ a {
 }
 
 #sobre-div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    margin-bottom: 200px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#sobre-div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #sobre-div p {
     text-align: center;
-    margin-left: 30px;
 }
 
 .pilot {
@@ -253,6 +284,9 @@ a {
     margin-bottom: 100px;
     overflow: hidden;
     padding-top: 30px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
 
 .credits img {
@@ -262,8 +296,18 @@ a {
 
 .main-sector {
     margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.main-sector .lado {
+    max-width: 250px;
+}
+
+/* fade in animação */

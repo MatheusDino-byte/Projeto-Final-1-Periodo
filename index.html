@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
     <title>Glitch Productions</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
     <link href="https://fonts.cdnfonts.com/css/bender" rel="stylesheet">
 </head>
 <body>
@@ -21,10 +22,10 @@
                         <ul>
                               <li id="list-shows">
                                 <ul><a href="pages/circo-digital.html" class="black-text">O incrível circo digital</a></ul>
-                                <ul>Gameoverse</ul>
-                                <ul>Cavalheiros de Guinevere</ul>
-                                <ul>Murder drones</ul>
-                                <ul>O distrito dos lampejos</ul>
+                                <ul><a href="pages/gameoverse.html" class="black-text">Gameoverse</a></ul>
+                                <ul><a href="pages/cavalheiros.html" class="black-text">Cavalheiros de Guinevere</a></ul>
+                                <ul><a href="pages/drones.html" class="black-text">Murder drones</a></ul>
+                                <ul><a href="pages/distrito-lampejos.html" class="black-text">O distrito dos lampejos</a></ul>
                               </li>
                         </ul>
                     </li>
@@ -37,8 +38,8 @@
     </header>
     <main>
         <h1 class="big-title">Glitch Productions</h1>
-        <div class="bloco-right" id="historia-div">
-            <h2 class="titulo-secao historia">Historia</h2>
+        <div class="bloco-right" id="historia-div" className="animatedParent">
+            <h2 class="titulo-secao historia" className="animated bouceInRight">Historia</h2>
             <img src="media/0x0.webp" alt="caba">
             <p>Fundada em 2017 pelos irmãos Kevin e Luke Lerdwichagul em seu quarto em Sydney, Austrália, a Glitch Productions nasceu com um objetivo singular: mudar a forma como o Ocidente cria animações para adolescentes e jovens adultos. <br><br>
             Desde então, a empresa cresceu enormemente, contando agora com quatro séries produzidas e centenas de milhões de fãs no mundo todo. Apesar disso, a Glitch permanece totalmente autofinanciada e independente, dedicada a provar que a animação independente está na vanguarda da indústria.</p>
@@ -60,7 +61,7 @@
             <div id="scroll-shows">
                 <a href="pages/circo-digital.html"><img src="media/amazing-sec.png" alt="amazing"></a>
                 <img src="media/gameoverse-sec.webp" alt="gameoverse">
-                <img src="media/gaslight-sec.png" alt="gaslight">
+                <a href="pages/distrito-lampejos.html"><img src="media/gaslight-sec.png" alt="gaslight"></a>
                 <img src="media/knight-sec.png" alt="knight">
                 <img src="media/murder-sec.png" alt="murder">
                 <!--Retirar o abaixo quando termirar a parte de cima-->>
@@ -73,7 +74,9 @@
         </section>
     </main>
     <footer class="rodape">
-        <p>Site desenvolvido na disciplina de Introdução ao web<br>Curso de Sistema de Informação</p>
+        <p>Site desenvolvido na disciplina de Introdução ao web<br>Curso de Sistema de Informação - Unirios</p>
     </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src='plugins/css3-animate-it.js'></script>
 </body>
 </html>
