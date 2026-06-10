@@ -36,6 +36,13 @@ body {
     color: white;
 }
 
+#drones {
+    background-image: url(../images/drones-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
 a {
     font-style: normal;
     text-decoration-line: none;
