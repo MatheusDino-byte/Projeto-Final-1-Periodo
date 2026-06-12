@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
+    <link rel="shortcut icon" href="../images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
     <title>distrito dos lampejos</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
     <link href="https://fonts.cdnfonts.com/css/bender" rel="stylesheet">
     <script src="fadescroll.js"></script>
 </head>
 <body id="gaslight">
     <header id="header-global-top">
-        <img src="NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
+        <img src="../images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
         <p class="black-text">Glitch Productions</p>
         <nav id="nav-global-top">
             <div>
@@ -38,20 +39,20 @@
     </header>
     <main>
         <h1 class="big-title">O Distrito dos Lampejos</h1>
-        <div class="bloco-right" id="sobre-div">
-            <img src="../images/GD_title_logo.png" alt="logo-lampejos">
+        <div class="bloco-right animatedParent animateOnce" id="sobre-div">
+            <img src="../images/GD_title_logo.png" alt="logo-lampejos" id="gd">
             <h2 class="titulo-secao historia">Sobre o show</h2>
-            <p>Da mente distorcida de Nick Szopko vem 'The Gaslight District', uma série de crimes sobrenaturais sobre uma família de gângsteres mortos-vivos em uma cidade onde a morte não significa nada e as consequências só importam se você não conseguir sair delas.</p>
+            <p class="animated bounceInDown">Da mente distorcida de Nick Szopko vem 'The Gaslight District', uma série de crimes sobrenaturais sobre uma família de gângsteres mortos-vivos em uma cidade onde a morte não significa nada e as consequências só importam se você não conseguir sair delas.</p>
         </div>
-        <section class="main-sector">
-            <img src="../images/gaslight-sec.png" alt="mel" class="lado">
+        <section class="main-sector animatedParent animateOnce">
+            <img src="../images/gaslight-sec.png" alt="mel" class="lado animated bounceInLeft">
             <div class="credits">
             <h2>Criador</h2>
             <img src="../images/NickSzopkoPFP.png" alt="nick">
             <p>Nick Szopko</p>
             <a href="https://x.com/fulltimeseagull" class="white-text" target="_blank">@fulltimeseagull</a>
             </div>
-            <img src="../images/Cropped.webp" alt="cropped" class="lado">
+            <img src="../images/Cropped.webp" alt="cropped" class="lado animated bounceInRight">
         </section>
         <h2 id="assista">Assista ao piloto!</h2>
         <div class="pilot">
@@ -65,3 +66,5 @@
     </footer>
 </body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/css3-animate-it.js"></script>

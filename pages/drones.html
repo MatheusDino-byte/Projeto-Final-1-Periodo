@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
+    <link rel="shortcut icon" href="..images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
     <title>Murder drones</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
     <link href="https://fonts.cdnfonts.com/css/bender" rel="stylesheet">
 </head>
 <body id="drones">
     <header id="header-global-top">
-        <img src="NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
+        <img src="../images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
         <p class="black-text">Glitch Productions</p>
         <nav id="nav-global-top">
             <div>
@@ -37,21 +38,21 @@
     </header>
     <main>
         <h1 class="big-title">Murder drones</h1>
-        <div class="bloco-right" id="sobre-div">
-            <img src="../images/MD_MainTitle_WClean.png" alt="logo-drones">
+        <div class="bloco-right animatedParent animateOnce" id="sobre-div">
+            <img src="../images/MD_MainTitle_WClean.png" alt="logo-drones" class="animated growIn">
             <h2 class="titulo-secao historia">Sobre o show</h2>
-            <p>Da mente distorcida de Liam Vickers, vem uma história de aquecimento do coração de "destruir todos os humanos". Uzi, uma robô trabalhadora adolescente sardônica que se tornou rebelde faz amizade com N, um amigavel drone otimista de desmontagem enviado para destruí-la, criando o que podemos supor ser um relacionamento muito ruim para a humanidade. <br><br>
+            <p class="animated bounceInDown">Da mente distorcida de Liam Vickers, vem uma história de aquecimento do coração de "destruir todos os humanos". Uzi, uma robô trabalhadora adolescente sardônica que se tornou rebelde faz amizade com N, um amigavel drone otimista de desmontagem enviado para destruí-la, criando o que podemos supor ser um relacionamento muito ruim para a humanidade. <br><br>
             Desde seu lançamento em 2021, Murder Drones se tornou uma das séries animadas mais vistas do Youtube. Gerando uma enorme base de fãs hardcore, a série tem aparecido em convenções, lojas de varejo, obras de fãs, e também está logo atrás de você.</p>
         </div>
-        <section class="main-sector">
-            <img src="../images/murder-sec.png" alt="drones" class="lado">
+        <section class="main-sector animatedParent animateOnce">
+            <img src="../images/murder-sec.png" alt="drones" class="lado animated bounceInLeft">
             <div class="credits">
             <h2>Criador</h2>
             <img src="../images/LiamVickersPFP.jpg" alt="Liam">
             <p>Liam Vickers</p>
             <a href="https://x.com/LiamVAnimation" class="white-text" target="_blank">@LiamVAnimation</a>
             </div>
-            <img src="../images/MD_bottomBanner_WIP (3).png" alt="uzien" class="lado">
+            <img src="../images/MD_bottomBanner_WIP (3).png" alt="uzien" class="lado animated bounceInRight">
         </section>
         <h2 id="assista">Assista ao piloto!</h2>
         <div class="pilot">
@@ -65,3 +66,5 @@
     </footer>
 </body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/css3-animate-it.js"></script>

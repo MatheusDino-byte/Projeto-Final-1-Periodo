@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-image: url(../images/pattern-02.png);
 }
@@ -341,4 +345,52 @@ a {
     max-width: 350px;
 }
 
-/* fade in animação */
+/*animação do distrito dos lampejos*/
+#gd {
+    animation-name: flicker;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    95% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

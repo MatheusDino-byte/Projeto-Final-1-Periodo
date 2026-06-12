@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
+    <link rel="shortcut icon" href="../images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
     <title>Cavalheiros de Guinevere</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
     <link href="https://fonts.cdnfonts.com/css/bender" rel="stylesheet">
 </head>
 <body id="cavalheiros">
     <header id="header-global-top">
-        <img src="NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
+        <img src="../images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
         <p class="black-text">Glitch Productions</p>
         <nav id="nav-global-top">
             <div>
@@ -37,13 +38,13 @@
     </header>
     <main>
         <h1 class="big-title">Cavalheiros de Guinevere</h1>
-        <div class="bloco-right" id="sobre-div">
-            <img src="../images/KOG_logo_alphaExports_planetFilled-(1).png" alt="logo-cavalheiros">
+        <div class="bloco-right animatedParent animateOnce" id="sobre-div">
+            <img src="../images/KOG_logo_alphaExports_planetFilled-(1).png" alt="logo-cavalheiros" class="animated flip">
             <h2 class="titulo-secao historia">Sobre o show</h2>
-            <p>Knights of Guinevere é um thriller psicológico ambientado em um futuro distante que o recebe em um parque de diversões em todo o planeta nas nuvens!... E as sombras sob ele, onde um Android Princesa quebrado pode ser dois sonhadores’ ingressos para vidas melhores, ou o fim delas. :3 💙</p>
+            <p class="animated bounceInDown">Knights of Guinevere é um thriller psicológico ambientado em um futuro distante que o recebe em um parque de diversões em todo o planeta nas nuvens!... E as sombras sob ele, onde um Android Princesa quebrado pode ser dois sonhadores’ ingressos para vidas melhores, ou o fim delas. :3 💙</p>
         </div>
-        <section class="main-sector">
-            <img src="../images/knight-sec.png" alt="kight" class="lado">
+        <section class="main-sector animatedParent animateOnce">
+            <img src="../images/knight-sec.png" alt="kight" class="lado animated bounceInLeft">
             <div class="credits">
             <h2>Criadores</h2>
             <div id="multiplos">
@@ -64,7 +65,7 @@
                 </div>
             </div>
             </div>
-            <img src="../images/image-removebg-preview.png" alt="Princesa" class="lado">
+            <img src="../images/image-removebg-preview.png" alt="Princesa" class="lado animated bounceInRight">
         </section>
         <h2 id="assista">Assista ao piloto!</h2>
         <div class="pilot">
@@ -78,3 +79,5 @@
     </footer>
 </body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../js/css3-animate-it.js"></script>

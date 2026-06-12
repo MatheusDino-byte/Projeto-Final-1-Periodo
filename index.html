@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
+    <link rel="shortcut icon" href="images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png">
     <title>Glitch Productions</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
     <link href="https://fonts.cdnfonts.com/css/bender" rel="stylesheet">
 </head>
 <body>
     <header id="header-global-top">
-        <img src="NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
+        <img src="images/NewGlitchLogo_Black_Official_58b05ceb-9601-4d12-8b28-800a04ee17a9.png" alt="Glitch" id="glitch-header-global">
         <p class="black-text">Glitch Productions</p>
         <nav id="nav-global-top">
             <div>
@@ -37,16 +36,16 @@
         </nav>
     </header>
     <main>
-        <h1 class="big-title">Glitch Productions</h1>
+        <h1 class="big-title animated" data-animated="height expand,fade" data-trigger="on screen">Glitch Productions</h1>
 
-        <div class="bloco-right" id="historia-div">
+        <div class="bloco-right animated" id="historia-div" data-animated="transform left,fade" data-trigger="on screen">
             <h2 class="titulo-secao historia">Historia</h2>
             <img src="images/0x0.webp" alt="caba">
             <p>Fundada em 2017 pelos irmãos Kevin e Luke Lerdwichagul em seu quarto em Sydney, Austrália, a Glitch Productions nasceu com um objetivo singular: mudar a forma como o Ocidente cria animações para adolescentes e jovens adultos. <br><br>
             Desde então, a empresa cresceu enormemente, contando agora com quatro séries produzidas e centenas de milhões de fãs no mundo todo. Apesar disso, a Glitch permanece totalmente autofinanciada e independente, dedicada a provar que a animação independente está na vanguarda da indústria.</p>
         </div>
 
-        <div class="bloco-left">
+        <div class="bloco-left animated" data-animated="transform right,fade" data-trigger="on screen">
             <h2 class="titulo-secao historia">Do que se trata?</h2>
             <img src="images/they_will_never_know.png" alt="personagens">
             <p>"Decepcionar nossos pais, principalmente. <br><br>
@@ -54,14 +53,14 @@
             Nós lidamos com tudo, desde o desenvolvimento até a distribuição, para garantir que tudo sobre a nossa série seja feito do jeito que gostamos." <br><br> -Site oficial da Glitch</p>
         </div>
 
-        <div class="bloco-right" id="youtube-div">
+        <div class="bloco-right animated" id="youtube-div" data-animated="transform left,fade" data-trigger="on screen">
             <h2 class="titulo-secao historia">Aonde assistir</h2>
             <iframe width="600" height="400" src="https://www.youtube.com/embed/pwhNC72BOhg" title="WELCOME TO GLITCH" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-images; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p>"Nosso conteúdo é gratuito no youtube! Também disponibilizamos traduções multilíngues para o nosso conteúdo para que todos possam desfrutar!" <br><br> -Site oficial da Glitch</p>
         </div>
 
         <section id="secao">
-            <h1 class="big-title" id="shows-titulo">Shows</h1>
+            <h1 class="big-title animated" id="shows-titulo" data-animated="transform up,fade" data-trigger="on screen">Shows</h1>
             <div id="scroll-shows">
                 <a href="pages/circo-digital.html"><img src="images/amazing-sec.png" alt="amazing"></a>
                 <a href="pages/gameoverse.html"><img src="images/gameoverse-sec.webp" alt="gameoverse"></a>
@@ -79,5 +78,6 @@
     <footer class="rodape">
         <p>Site desenvolvido na disciplina de Introdução ao web<br>Curso de Sistema de Informação - Unirios</p>
     </footer>
+    <script type="module" src="js/index.js"></script>
 </body>
 </html>
