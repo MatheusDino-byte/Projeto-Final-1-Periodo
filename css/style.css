@@ -9,39 +9,39 @@ html {
 }
 
 body {
-    background-image: url(../images/pattern-02.png);
+    background-image: url(../images/backgrounds/pattern-02.png);
 }
 
 #amazing {
-    background-image: url(../images/tdac-bg.jpg);
+    background-image: url(../images/backgrounds/tdac-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: white;
 }
 
 #gaslight {
-    background-image: url(../images/gd-bg.png);
+    background-image: url(../images/backgrounds/gd-bg.png);
     background-size: cover;
     background-attachment: fixed;
     color: white;
 }
 
 #gameoverse {
-    background-image: url(../images/g-bg.png);
+    background-image: url(../images/backgrounds/g-bg.png);
     background-size: cover;
     background-attachment: fixed;
     color: white;
 }
 
 #cavalheiros {
-    background-image: url(../images/cavalheiros-bg.png);
+    background-image: url(../images/backgrounds/cavalheiros-bg.png);
     background-size: cover;
     background-attachment: fixed;
     color: white;
 }
 
 #drones {
-    background-image: url(../images/drones-bg.png);
+    background-image: url(../images/backgrounds/drones-bg.png);
     background-size: cover;
     background-attachment: fixed;
     color: white;
