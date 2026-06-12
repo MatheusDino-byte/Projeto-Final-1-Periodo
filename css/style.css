@@ -319,6 +319,10 @@ a {
     border-radius: 10px;
 }
 
+.credits p {
+    margin-bottom: 30px;
+}
+
 .credits img {
     width: 100px;
     border-radius: 50px;
